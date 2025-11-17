@@ -172,6 +172,7 @@ Helps prevent rallies from becoming overwhelming in the match.
  
 # 7. References
 * No Generated Assets/ Content used
+* Mechanics inspired by classic Pong (Atari, 1972)  
 
 
 # 8. Team Members
