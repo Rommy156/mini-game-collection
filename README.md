@@ -1,20 +1,20 @@
-# Mini Game Collection
-A mini game project designed to teach students intermediate GitHub workflow and digital game prototyping skills.
+# Ricochet Rumble
+A modern, chaotic evolution of classic Pong where the ball is replaced with a ticking explosive bomb. Players rally the bomb back and forth while navigating ricochets and power-ups while the timer grows shorter and tensions rise.
 
-# DevCon #2 How To
-## Initial Setup: Fork
-Teams will need to create a fork of the repository under one team member's account. That team member should then add all team members as collaborators to the forked repository. The team will then be able to edit the repository.
 
-## Development
-It is expected that teams will review the [Wiki](https://github.com/MohawkRaphaelT/mini-game-collection/wiki) for information about the project configuration and workflow restrictions.
+## Gameplay Overview
+Ricochet Rumble is a 2D arcade, two-player competitive duel. Instead of a normal ball, players manage a bomb that becomes increasingly unstable as it is hit.
 
-## Contribute: Pull Request
-Ensure the mini game has been created using the guidelines in the [Wiki](https://github.com/MohawkRaphaelT/mini-game-collection/wiki).
+### Core Mechanics
+- Ticking time-bomb ball that shortens with every paddle hit  
+- Ricochets off reflective surfaces  
+- Environmental hazards and tight corridors  
+- Explosion stuns or scrambles the losing player’s controls  
+- First to 10 points wins  
 
-Once ready, one team member can create a Pull Request to ask that the repository owner pull their changes in. When creating a repository, please target the `Games20XX` branch rather than `main`.
+## Power-Ups
+Players can collect temporary boosts during the match:
 
-# Automated WebGL Builds ![Build and Deploy WebGL workflow badge.](https://github.com/MohawkRaphaelT/mini-game-collection/actions/workflows/ci.yml/badge.svg)
-GitHub Pages are enabled for this project. Successful builds on `main` will be pushed to the site and [playable here](https://mohawkraphaelt.github.io/mini-game-collection/).
-
-If you are interested to know more about how this automation works, consider reviewing [.github/workflows/ci.yml](https://github.com/MohawkRaphaelT/mini-game-collection/blob/main/.github/workflows/ci.yml)'s source and comments. In brief, a GitHub Action is run that starts up a Linux virtual machine with Unity on it, pulls down the repository, creates a WebGL build, then pushes the artifacts (build) to GitHub Pages.
-
+- **Big Paddle** – Increases paddle size for easier defense  
+- **Slow Ball** – Lowers the bomb speed for a brief window  
+- **Speed Up Paddle Movement** – Boosts paddle mobility  
