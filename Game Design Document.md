@@ -1,6 +1,8 @@
 # 1. **Introduction**
 ### Ricochet Rumble expands on traditional pong by transforming the ball into a ticking time bomb that becomes increasingly unstable as players rally.
 ### The game explores whether adding pressure, chaos, and strategic risk enhances engagement beyond the original Pong’s simplicity.
+<img width="526" height="296" alt="Picture1" src="https://github.com/user-attachments/assets/a354d833-bb9e-4f44-9c95-bbe0794bc333" />
+<img width="250" height="366" alt="images" src="https://github.com/user-attachments/assets/07223298-bb42-42ae-aeb0-35dd005f018a" />
 
 
 # 2. **Gameplay**
@@ -13,7 +15,7 @@
 
 * Avoid being caught on the side where the bomb explodes
 
-# 2. **Objective Statement**
+# 3. **Objective Statement**
 ### An arcade experience that amplifies tension, challenge, and engagement by replacing Pong’s static ball with a volatile, time-driven explosive object, encouraging players to balance precision, risk, and adaptability.
 ## Goals
 * Create tension and suspense through the ticking timer mechanic
@@ -24,26 +26,39 @@
 
 * Reinvent classic pong using mechanics that increase unpredictability, player agency, and strategic decisions
 
-# 3. Design Rationale
+# 4. Design Rationale
 ## Design Vision
-### We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's still skill-based and accessible, but with new layers of strategy, physics, and emotions. The “hot potato” mechanic directly enhances the competitive dynamic by forcing players to make quick, tactical decisions.
+### We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast, competitive arcade experience that maintains Pong’s accessibility while adding depth, unpredictability, and emotional tension. The introduction of a ticking explosive object creates a “hot potato” dynamic that forces rapid decision-making and transforms every volley into a moment of mounting pressure.
 
 ### Evaluates complexity vs. simplicity:
-* The design allows us to test whether adding features (bomb timer, ricochets, teleporters, control scramble)
-increases engagement or disrupts the simplicity of Pong.
+* Tests whether meaningful complexity (bomb timer, ricochets, control scramble) enhances engagement or overloads the original simplicity of Pong.
+
+* Maintains a familiar core (paddles + bouncing object) while adding layered decision-making.
 
 ### Encourage clever, skill-based play
 
-* The core goal is to make players feel smart when they predict ricochet paths and manipulate the arena geometry.
+* Players feel smart when predicting ricochet angles and using arena geometry to their advantage.
 
-* Players can intentionally use corridors, corners, and reflective panels to set up trick shots.
+* Reflective walls, tight corridors, and teleporters create opportunities for advanced trick shots.
+
+* Encourages planned setups, baiting strategies, and creative use of ability power-ups.
+
+* Supports both casual play (simple controls) and competitive mastery (high skill ceiling).
 
 ### Escalate difficulty through evolving arena features
 
-* Later arenas add more reflective surfaces, tighter chokepoints, and more teleporters.
+* Later arenas add more reflective surfaces, tighter chokepoints, and special abilities.
 
 * Environmental hazards (momentary force fields or shifting walls) keep players adapting.
 
 * Faster ricochet physics and increased bomb volatility raise the skill ceiling.
 
-# 4. References
+* Ensures constant adaptation and prevents repetitive gameplay.
+
+# 5. References
+* No Generated Assets/ Content
+
+# 6. Team Members
+Allen: Documentation | Project Manager | 
+Sergio: Programmer | Documentation
+Jon-Marc: Programmer
