@@ -177,5 +177,5 @@ Helps prevent rallies from becoming overwhelming in the match.
 
 # 8. Team Members
 * Allen:  Project Manager | Documentation |
-* Sergio: Programmer | Documentation
+* Sergio: Programmer | Documentation asst.
 * Jon-Marc: Programmer
