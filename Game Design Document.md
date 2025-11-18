@@ -1,6 +1,6 @@
 # Ricochet Rumble
 # 1. **Introduction**
-Ricochet Rumble expands on traditional pong by transforming the ball into a ticking time bomb that becomes increasingly unstable as players rally.
+Ricochet Rumble expands on the game `Pong` by transforming the ball into a ticking time bomb that becomes increasingly unstable as players rally.
 
 The game explores whether adding pressure, chaos, and strategic risk enhances engagement beyond the original Pong’s simplicity.
 <img width="526" height="296" alt="Picture1" src="https://github.com/user-attachments/assets/a354d833-bb9e-4f44-9c95-bbe0794bc333" />
@@ -9,17 +9,16 @@ The game explores whether adding pressure, chaos, and strategic risk enhances en
 
 # 2. **Gameplay**
 Ricochet Rumble is designed as a 2D arcade, two-player competitive duel in which players use paddles to deflect an explosive projectile. Instead of a normal ball, players are managing a bomb with a shortening timer, forcing them into high-pressure volleys where every hit matters.
-### Players must:
 
 * Deflect the bomb while anticipating ricochets off reflective walls
 
 * Special abilities include Big Paddle, Slow Ball, Speed Up Paddle Movement
 
-* Avoid being caught on the side where the bomb explodes
+* Avoid the bomb from passing through the vertical walls
 
 # 3. **Objective Statement**
-An arcade experience that amplifies tension, challenge, and engagement by replacing Pong’s static ball with a volatile, time-driven explosive object, encouraging players to balance precision, risk, and adaptability.
-## Goals
+An arcade experience that amplifies tension, challenge, and engagement by replacing Pong’s static ball with a volatile, random path, encouraging players to balance precision, risk, and adaptability.
+## 3.1 Goals
 * Create tension and suspense through the ticking timer mechanic
 
 * Create moments of panic, excitement, and rapid adaptation
@@ -29,15 +28,15 @@ An arcade experience that amplifies tension, challenge, and engagement by replac
 * Reinvent classic pong using mechanics that increase unpredictability, player agency, and strategic decisions
 
 # 4. Design Rationale
-## Design Vision
-We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast, competitive arcade experience that maintains Pong’s accessibility while adding depth, unpredictability, and emotional tension. The introduction of a ticking explosive object creates a “hot potato” dynamic that forces rapid decision-making and transforms every volley into a moment of mounting pressure.
+## Vision
+We envision Ricochet Rumble as a modern, chaotic evolution of `Pong`. It's a fast, competitive arcade experience that maintains Pong’s accessibility while adding depth, unpredictability, and emotional tension. The introduction of a ticking explosive object creates a “hot potato” dynamic that forces rapid decision-making and transforms every volley into a moment of mounting pressure.
 
-### Evaluates complexity vs. simplicity:
-* Tests whether meaningful complexity (bomb timer, ricochets, control scramble) enhances engagement or overloads the original simplicity of Pong.
+### 4.1 Evaluates complexity vs. simplicity:
+* Tests whether meaningful complexity (bomb timer, ricochets, control scramble) enhances engagement or overloads the original simplicity of `Pong`.
 
 * Maintains a familiar core (paddles + bouncing object) while adding layered decision-making.
 
-### Encourage clever, skill-based play
+### 4.2 Encourage clever, skill-based play
 
 * Players feel smart when predicting ricochet angles and using arena geometry to their advantage.
 
@@ -47,7 +46,7 @@ We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast,
 
 * Supports both casual play (simple controls) and competitive mastery (high skill ceiling).
 
-### Escalate difficulty through evolving arena features
+### 4.3 Escalate difficulty 
 
 * Later arenas add more reflective surfaces, tighter chokepoints, and special abilities.
 
@@ -59,20 +58,20 @@ We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast,
 
 
 # 5. Core Loop & System Overview
-## Match Structure
+## 5.1 Match Structure
 
-* A match is divided into continuous rallies where players deflect the bomb until the timer reaches zero.
+* A match is divided into continuous rallies where players deflect the bomb until ball goes through one of vertical wall.
 
-* When the bomb explodes, the round ends and a point is awarded to the surviving player.
+* When the bomb goes through the wall, the round ends and a point is awarded.
 
 * Matches continue until one player reaches 10 points.
 
-## Round Loop
+## 5.2  Loop
 ###  1. Bomb Spawn
 
 * Bomb appears at the center with a full timer.
 
-* Initial speed is moderate.
+* Initial speed is moderate and direction is random.
 
 ### 2. Rally 
 
@@ -97,7 +96,7 @@ We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast,
 
 * When the timer hits zero, the bomb explodes on the side of the screen it occupies.
 
-* The affected player loses a point (or takes health damage).
+* The unaffected player gains a point.
 
 **Explosion:** Screen shake or flash for feedback
 
@@ -109,8 +108,8 @@ We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast,
 
 * Next round starts.
 
-## Difficulty Scaling
-### Easy
+## 5.3 Difficulty Scaling
+### 1. Easy
 
 * Few reflective panels
 
@@ -120,7 +119,7 @@ We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast,
 
 * Low chaos, high clarity
 
-### Hard
+### 2. Hard
 
 * More complex ricochet angles
 
@@ -128,7 +127,7 @@ We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast,
 
 * Higher pressure and faster pacing
 
-### Impeccable
+### 3. Impeccable
 * Tight corridors force unpredictable bounces
 
 * Ricochets become dangerous and difficult to track
@@ -143,7 +142,7 @@ We envision Ricochet Rumble as a modern, chaotic evolution of Pong. It's a fast,
 # 6. Power Up Systems
 ## Overview
 Power-ups spawn at set intervals or at random positions inside the arena. Only one power-up may be active at a time to avoid overwhelming the core Pong-style gameplay.
-## Power-Up Types
+## 6.1 Power-Up Types
 
 ### 1. Big Paddles
 **Effect:** Temporary increase length of paddle
@@ -172,10 +171,10 @@ Helps prevent rallies from becoming overwhelming in the match.
  
 # 7. References
 * No Generated Assets/ Content used
-* Mechanics inspired by classic Pong (Atari, 1972)  
+* Mechanics inspired by classic `Pong` (Atari, 1972)  
 
 
 # 8. Team Members
-* Allen:  Project Manager | Documentation |
+* Allen:  Project Manager | Documentation | Programmer asst.
 * Sergio: Programmer | Documentation asst.
 * Jon-Marc: Programmer
