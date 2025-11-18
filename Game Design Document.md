@@ -10,6 +10,8 @@ The game explores whether adding pressure, chaos, and strategic risk enhances en
 # 2. **Gameplay**
 Ricochet Rumble is designed as a 2D arcade, two-player competitive duel in which players use paddles to deflect an explosive projectile. Instead of a normal ball, players are managing a bomb with a shortening timer, forcing them into high-pressure volleys where every hit matters.
 
+<img width="1541" height="548" alt="Screenshot 2025-11-17 223649" src="https://github.com/user-attachments/assets/1d18e620-1dd6-4240-8d28-a5991dcf2c6a" />
+
 * Deflect the bomb while anticipating ricochets off reflective walls
 
 * Special abilities include Big Paddle, Slow Ball, Speed Up Paddle Movement
@@ -30,6 +32,8 @@ An arcade experience that amplifies tension, challenge, and engagement by replac
 # 4. Design Rationale
 ## Vision
 We envision Ricochet Rumble as a modern, chaotic evolution of `Pong`. It's a fast, competitive arcade experience that maintains Pong’s accessibility while adding depth, unpredictability, and emotional tension. The introduction of a ticking explosive object creates a “hot potato” dynamic that forces rapid decision-making and transforms every volley into a moment of mounting pressure.
+
+<img width="1919" height="875" alt="Screenshot 2025-11-17 223716" src="https://github.com/user-attachments/assets/c58a10a8-091a-4966-bc3f-ac5168a17ea8" />
 
 ### 4.1 Evaluates complexity vs. simplicity:
 * Tests whether meaningful complexity (bomb timer, ricochets, control scramble) enhances engagement or overloads the original simplicity of `Pong`.
@@ -172,7 +176,6 @@ Helps prevent rallies from becoming overwhelming in the match.
 # 7. References
 * No Generated Assets/ Content used
 * Mechanics inspired by classic `Pong` (Atari, 1972)  
-
 
 # 8. Team Members
 * Allen:  Project Manager | Documentation | Programmer asst.
